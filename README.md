@@ -16,7 +16,7 @@ The code conforms to the specifications of the assignment. The code block:
             add “Mad Catz M.O.U.S.9” 55 Units At 43 If OutOfStock Wait 32 Weeks
             add “The Riftshadow Roamer” 89 Units At 47 If OutOfStock Wait 64 Days }
 
-Compiles into an AST whose `Show`-instance prints it as a list separated with semi-colons, as required by the assignment:
+Compiles into an AST whose `Show`-instance prints it as a list separated by semi-colons, as required by the assignment:
 
     Order[OrderLine(Product(“Raspberry Pi”,34),Price 41,Period(16,Months));
           OrderLine(Product(“Mad Catz M.O.U.S.9”,55),Price 43,Period(32,Weeks));

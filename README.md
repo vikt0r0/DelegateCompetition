@@ -26,4 +26,4 @@ Furthermore, the implementation allows reading the above input as a semicolon-se
 Drawbacks/future improvements:
 -----------------------------
 - Printing of ASTs could be prettier; there is no indentation or newlines.
-- Due to the parser library used, arbitrary parenthesization of orderlines is not supported (this is not a requirement, however it might be desirable).
+- Due to the parser library used, arbitraryly nested parenthesizations of `OrderLine`s are not supported (this was not a requirement, however it might be desirable).

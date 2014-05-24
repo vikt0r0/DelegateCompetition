@@ -1,11 +1,12 @@
 Entry for the Delegate code competition
 =======================================
+This is my entry for the Delegate code competition. The source language chosen for this implementation is Haskell due to the similarities between the host- and target language as well as the availability of 'beautiful' parser combinators. The Glasgow Haskell Compiler is required to run and test the parser as well as the AST (`http://www.haskell.org/ghc/`).
 
 Files:
 ------
 1. `DelegateAst.hs` - Defines the abstract syntax tree for the Delegate DSL as well as `Read` and `Show` instances.
-2. `DelegateParser.hs` - Defines the parser for parsing the delegate DSL into the AST.
-3. `DelegateTest.hs` - Tests of the parser, `Show` and `Read` instances.
+2. `DelegateParser.hs` - Defines the parser for parsing the delegate DSL into the AST. To parse a string or the contents of a file into the AST, import the module and invoke either `parseString :: String -> Either Error Order` or `parseFile :: FilePath -> IO (Either Error Order)` repectively.
+3. `DelegateTest.hs` - Tests of the parser, `Show` and `Read` instances. See the file for details.
 
 Compatibility:
 --------------

@@ -30,6 +30,6 @@ Drawbacks/future improvements:
 
 Contact Info:
 -------------
-Name: Viktor Fredslund-Hansen
-E-mail: viktor.f.hansen@gmail.com
-Phone: +45 50 19 19 92
+- Name: Viktor Fredslund-Hansen
+- E-mail: viktor.f.hansen@gmail.com
+- Phone: +45 50 19 19 92

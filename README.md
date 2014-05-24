@@ -22,7 +22,7 @@ Compiles into an AST whose `Show`-instance prints it as a list separated with se
           OrderLine(Product(“Mad Catz M.O.U.S.9”,55),Price 43,Period(32,Weeks));
           OrderLine(Product(“The Riftshadow Roamer”,89),Price 47,Period(64,Days))]
 
-Furthermore, the implementation allows reading the above input as a semicolon-separated list as well (i.e. both code blocks compile into the AST, and the `Read` and `Show` instances form a bijection between the AST and the string-representation of the AST, here represented by the second code part. That is, for a Delegate AST, `x`, `Read(Show x) :: Order == x`).
+Furthermore, the implementation allows reading the above input as a semicolon-separated list as well (i.e. both code blocks compile into the AST, and the `Read` and `Show` instances form a bijection between the AST and the string-representation of the AST, here represented by the second code part. That is, for a Delegate AST, `x :: a`, `Read(Show x) :: a == x`).
 
 Drawbacks/future improvements:
 -----------------------------

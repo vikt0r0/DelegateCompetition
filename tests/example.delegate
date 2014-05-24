@@ -1,0 +1,3 @@
+order { add "Raspberry Pi" 34 Units At 41 If OutOfStock Wait 16 Months
+        add "Mad Catz M.O.U.S.9" 55 Units At 43 If OutOfStock Wait 32 Weeks
+        add "The Riftshadow Roamer" 89 Units At 47 If OutOfStock Wait 64 Days }

@@ -28,9 +28,3 @@ Drawbacks/future improvements:
 -----------------------------
 - Printing of ASTs could be prettier; there is no indentation or newlines.
 - Due to the parser library used, arbitraryly nested parenthesizations of `OrderLine`s are not supported (this was not a requirement, however it might be desirable).
-
-Contact Info:
--------------
-- Name: Viktor Fredslund-Hansen
-- E-mail: viktor.f.hansen@gmail.com
-- Phone: +45 50 19 19 92
